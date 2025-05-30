@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 142450674}
   m_Layer: 0
   m_Name: coPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4876,10 +4876,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1193839888}
     m_Modifications:
-    - target: {fileID: 4146338533849149611, guid: acf53fd1453e50b4bb2d97f46777f751, type: 3}
-      propertyPath: groundCheckDistance
-      value: 0.13
-      objectReference: {fileID: 0}
     - target: {fileID: 7237844260697230204, guid: acf53fd1453e50b4bb2d97f46777f751, type: 3}
       propertyPath: m_Name
       value: Voss_Pattern_Hellpistol_White

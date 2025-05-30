@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 447979502667886070}
   - component: {fileID: 1281802628517958940}
   - component: {fileID: 3612914575809490501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FlameThrowerLevel1Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,6 +58,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
