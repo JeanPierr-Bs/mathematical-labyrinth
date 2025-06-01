@@ -73,7 +73,7 @@ public class CollectioanbleItems : MonoBehaviour
     }
     void OnGUI()
     {
-        Rect rect = new Rect(Screen.width / 2, Screen.height / 2, puntero.width / 2, puntero.height / 2);
+        Rect rect = new Rect(Screen.width / 2, Screen.height / 2, puntero.width / 3, puntero.height / 3);
         GUI.DrawTexture(rect, puntero);
     }
 }
