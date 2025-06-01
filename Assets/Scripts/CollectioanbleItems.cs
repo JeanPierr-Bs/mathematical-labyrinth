@@ -11,7 +11,7 @@ public class CollectioanbleItems : MonoBehaviour
     {
         if (pickedObject != null)
         {
-            // Mantener la posición del objeto en la mano
+            // Mantener la posiciÃ³n del objeto en la mano
             pickedObject.transform.position = handTarget.transform.position;
 
             if (Input.GetKey("r"))
@@ -57,16 +57,16 @@ public class CollectioanbleItems : MonoBehaviour
                 pickedObject.transform.localRotation = Quaternion.Euler(0, 90, 0);
                 pickedObject.transform.position = handTarget.transform.position;
 
-                // <<<<<<<<<<<<<< Aquí usamos GetComponentInParent
+                // <<<<<<<<<<<<<< AquÃ­ usamos GetComponentInParent
                 var shootScript = pickedObject.GetComponentInParent<Shoot>();
                 if (shootScript != null)
                 {
-                    Debug.Log("¡Arma recogida correctamente!");
+                    Debug.Log("Â¡Arma recogida correctamente!");
                     shootScript.isHeld = true;
                 }
                 else
                 {
-                    Debug.LogWarning("No se encontró el script 'Shoot' en el objeto recogido");
+                    Debug.LogWarning("No se encontrÃ³ el script 'Shoot' en el objeto recogido");
                 }
             }
         }
